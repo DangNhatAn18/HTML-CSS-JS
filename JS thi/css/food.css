@@ -1,0 +1,44 @@
+.container-fluid {
+	font-family: Arial;	
+			}
+h2 {
+	color: white ;
+				}
+.card {
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+				}
+.card-body img {
+	width: 60px;
+	height: 13px;
+				}
+.card-img-top img{
+	height: 100px;
+}
+.header {
+	background-color: #b22830;
+	padding-top: 30px;
+	text-align: center;
+	width: 100%;
+	}
+
+.header .col-md-3 img {
+	width: 130px;
+	height: 90px;
+}
+img {
+	width: 150px;
+	height: 150px;
+	text-align: left;
+}
+.menu {
+	background-color: #b22830;
+}
+.footer {
+	background-color: #53382c;
+	padding: 30px;
+	color : white;
+}
+*::-webkit-scrollbar{
+	display: none;

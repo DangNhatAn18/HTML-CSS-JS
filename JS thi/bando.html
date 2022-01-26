@@ -1,0 +1,225 @@
+
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<link rel="stylesheet" href="bando.css">
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+			<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+			<link rel="stylesheet" href="style.css">
+			<script src="dangnhapdangki.js" type="text/javascript" charset="utf-8" async defer></script>
+	</head>
+	<body>
+			
+		<script language="javascript" src="kiemtra.js"></script>		
+		<script language="javascript" src="kiemtra1.js"></script>
+		
+			<div class="header">
+        <div class="row">
+          <div class="col-md-3">
+            <a href="trangchu.html">
+        <img src="image/HL.png" alt=""> </a>
+          </div>
+          <div class="col-md-9">
+            <h2 style="color: white"><strong> CÀ PHÊ MANG ĐẾN THƯƠNG HIỆU VIỆT </strong></h2>
+          </div>
+        </div>
+      </div>
+     <div class="menu" style="padding: 10px; padding-left: 50px;">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="btn-group">
+              <a href="trangchu.html"><button type="button" class="btn text-white " ><i class="fas fa-home"></i> <strong>Trang chủ</strong></button></a>
+          </div>
+          <div class="btn-group">
+            <button type="button" class="btn  dropdown-toggle text-white" data-toggle="dropdown"> <i class="fas fa-list"></i> <strong>Menu</strong></button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="douong.html">Đồ Uống </a>
+              <a class="dropdown-item" href="food.html">Thức Ăn </a>
+            </div>
+          </div>
+          <div class="btn-group"> 
+            <button type="button" class="btn  dropdown-toggle text-white" data-toggle="dropdown"><i class="fas fa-book-open"></i> <strong>Tin tức</strong></button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="tintuc.html">Tin tức & Sự Kiện</a>
+              <a class="dropdown-item" href="#">Khuyễn mãi trong ngày </a>
+            </div>
+          </div>
+
+         <a href="game.html"><button type="button" class="btn btn btn-hover text-white"><i class="fas fa-gamepad"></i> <strong>Game</strong></button></a>
+          <a href="bando.html"><button type="button" class="btn btn btn-hover text-white"><i class="fas fa-map-marked-alt"></i> <strong>Bản đồ</strong></button></a>
+          <button type="button" class="btn btn btn-hover text-white" data-toggle="modal"data-target="#Ahihi33" style="text-align: center" > <i class="fas fa-phone"></i> <strong>Liên hệ</strong></button>
+          <div id="Ahihi33" class="modal fade" role ="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title"> Thông tin liên hệ </h5>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                  <h5>  <i class="fab fa-facebook"></i> Liên hệ fb : https://www.facebook.com/highland</h5>
+                  <h5><i class="fas fa-envelope-square"></i>  Email : HighLandCoffee@gmail.com </h5>
+                  <h5><i class="fab fa-instagram">Instagram: Annnnnnnn18 </i></h5>
+                  <p>  <i class="fas fa-phone-volume"></i> Holine :0869280017</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal"> Đóng</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" >
+          <button type="button"   class="btn btn btn-hover text-white" data-toggle="modal"data-target="#Ahihi1" onclick="thaydoi()" > <strong>Đăng nhập</strong></button>
+          <div id="Ahihi1" class="modal fade" role  ="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" > Đăng nhập </h5>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                  <form action="" method="POST" onsubmit="return validate1()">
+
+<div class="register">
+<h1>Đăng nhập</h1>
+<p>Vui lòng điền thông tin để đăng nhập</p>
+<hr>
+
+<label for="username"><b>Tên đăng nhập (*) </b></label>
+<input type="text" placeholder="Họ và tên" name="username" id="username1">
+<label for="password"><b>Mật khẩu (*)</b></label>
+<input type="password" placeholder="******" name="password" id="password1">
+
+<hr>
+
+<button type="submit" class="submit" onmouseover ="ht1()" onmouseout= "ht2()" id="header">Đăng nhập</button>
+</div>
+<div class="register login">
+<p>Bạn chưa có tài khoản? <a href="formdangki.html">Đăng kí ngay</a>.</p>
+</div>
+</form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal"> Đóng</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button type="button" class="btn btn btn-hover text-white" data-toggle="modal"data-target="#Ahihi3" style="text-align: center" >  <strong> Đăng Kí</strong></button>
+          <div id="Ahihi3" class="modal fade" role  ="dialog">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title"> Đăng kí </h5>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+<form action="" method="POST" onsubmit="return validate()">
+
+<div class="register">
+<h1>Đăng ký</h1>
+<p>Vui lòng điền thông tin để đăng ký</p>
+<hr>
+
+<label for="username"><b>Tên đăng nhập (*) </b></label>
+<input type="text" placeholder="Họ và tên" name="username" id="username">
+<label for="username"><b>Nhập Email (*) </b></label>
+<input type="text" placeholder="Email" name="Email" id="Email">
+<label for="password"><b>Mật khẩu (*)</b></label>
+<input type="password" placeholder="******" name="password" id="password">
+<label for="password-repeat"><b>Nhập lại mật khẩu (*)</b></label>
+<input type="password" placeholder="******" name="password-repeat" id="password-repeat">
+<hr>
+<p>Để tạo tài khoản vui lòng đồng ý với điều khoản của chúng tôi <a href="#">Terms &amp; Privacy</a>.</p>
+<button type="submit" class="submit"onmouseover ="ht3()" onmouseout= "ht4()" id="header1">Đăng ký</button>
+</div>
+<div class="register login">
+<p>Bạn đã có tài khoản rồi? <a href="">Đăng nhập</a>.</p>
+</div>
+</form> 
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-dismiss="modal"> Đóng</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+  
+        </div>
+				
+			</div>
+		</div>
+				<marquee style="color: red;"><strong> HighLand xin kính chào quý khách-Chúng tôi mong muốn mang đến cho bạn những trải nghiệm đáng nhớ mỗi lần đến Highlands Coffee®</strong></marquee>
+			<div class="container-fluid">
+
+				<div class="container">
+					<h1 style="color: #53382C"><strong>Tìm quán Coffee</strong></h1>
+					<form class="form-inline">
+					
+						<select>
+						<option>Việt Nam</option>
+						<option>Việt Nam</option>
+
+					</select>
+					<select>
+						<option>Chọn thành phố</option>
+						<option>An Giang</option>
+						<option>Bà Rịa - Vũng Tàu</option>
+						<option>Bắc Kạn</option>
+						<option>Bạc Liêu</option>
+						<option>Cần Thơ</option>
+						<option>Đà Nẵng</option>
+						<option>Thừa Thiên Huế</option>
+						<option>Hà Nội</option>
+						<option>TP HCM</option>
+						<option>Hải Phòng</option>
+						
+						
+
+					</select>
+					<select>
+						<option>Chọn quận/huyện</option>
+						<option>Quận 1</option>
+						<option>Quận 2</option>
+						<option>Quận 3</option>
+						<option>Quận 4</option>
+						<option>Quận 5</option>
+						<option>Quận 6</option>
+						<option>Quận 7</option>
+						<option>Quận 8</option>
+
+
+					</select>
+					<input class="form-control mr-sm-1 "type="text" placeholder="Tìm địa chỉ" style="margin-top:22px">
+						<button class="btn btn-success" type="submit"><i class="fas fa-search-location"></i> </button>
+				</form>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29312.794333678572!2d107.58093731886632!3d16.45918333625125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3141a17f714251e3%3A0x4c56f6d09511d5f6!2sHighlands%20Coffee!5e0!3m2!1svi!2s!4v1594172478316!5m2!1svi!2s" width="100%" height="700" frameborder="0" style="border:0; margin-top: 10px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				</div>
+			</div>
+			<div class="footer">
+					<div class="row">
+						<div class="col-md-4">
+							<p><i class="fas fa-map-marker-alt"></i>  Địa chỉ : 176 Trần Phú </p>
+							<p><i class="fas fa-envelope-square"></i>  Email : HighLandCoffee@gmail.com </p>
+							</div>
+						<div class="col-md-4">
+							Copyright 2020 · Thiết kế và phát triển bởi Khanh&An 	 All rights reserved
+							</div>
+						<div class="col-md-4">
+							CHÚNG TÔI LUÔN LẤY UY TÍN LÀM HÀNG ĐẦU ĐỐI VỚI KHÁCH HÀNG. HI VỌNG SẼ ĐƯỢC PHỤC VỤ CÁC BẠN. CẢM ƠN!
+							</div>
+					</div>
+			</div>
+	
+	
+</body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	</body>
+	</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Kí</title>
+    <link rel="stylesheet" href="css/log.css">
+</head>
+<body>
+    <div id="formLogin">
+        <form action="dangnhap.html" method="POST" onsubmit="return validate()">
+            <h3>ĐĂNG KÍ</h3>
+            <input class="text-field" type="text" placeholder="Họ Và Tên" id="fullname">
+            <input class="text-field" type="text" placeholder="Email" id="Email">
+            <input class="text-field" type="text" placeholder="Số Điện Thoại" id="phone" pattern="[0-9]*">
+            <input class="text-field" type="text" placeholder="Địa Chỉ" id="address">
+            <input class="text-field" type="password" placeholder="Mật Khẩu" id="password">
+            <input class="text-field" type="password" placeholder="Nhập Lại Mật Khẩu" id="password-repeat">
+            <input type="submit" onclick="submitData()" class="submit"onmouseover ="ht3()" onmouseout= "ht4()" id="header1" value="Đăng ký">
+            
+            <p></p>
+            
+        </form>
+    </div>
+    <script src="js/kiemtra.js"></script>  
+    <script src="js/storage.js"></script>    
+</body>
+</html>
